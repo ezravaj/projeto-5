@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  min-height: 100%;
+  margin: 0;
+}
+
+.container {
+    display: flex;
+    background-color:#162028;
+   
+    align-items: center;
+    margin: 0;
+    min-width: 100%;
+    justify-content: flex-end;
+    gap: 40em;
+    
+}
+.topo {min-width:100% ;
+width: 5em;}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    gap: 4em;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    align-items: center;
+    padding-right: 2em;
+    
+}
+a {text-decoration: none;
+color: #425564;}
+
+h1 {font-family: "Viaoda Libre", serif;
+color:white;}
+
+.container2 {text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding-top: 5em;
+    
+    }
+    h2 {
+    font-family: "Viaoda Libre", serif;
+font-size: 2.4em;
+}
+.texto1 {min-width: 50%;
+   
+    line-height: 2em;
+    min-width: 10%;
+    width: 50em;
+    color: #555;
+    
+}
+
+.perfil {display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    gap: 2em;
+    margin-top: 6em;
+    color: #555;
+}
+h3 {text-transform: uppercase;
+letter-spacing: 0.2em;}
+
+.container4 {
+
+padding: 10em;
+background-color: #003d52;
+background-image: url(imagens/bg_detalhe.png);
+background-repeat: no-repeat;
+background-position: bottom right;
+}
+
+h4 {font-size: 4em;
+font-family: "Viaoda Libre", serif;
+color: white;}
+
+.texto2 {font-size: 1.7em;
+color: white;
+max-width: 90%;
+width: 36em;}
+
+footer {background-color: #0b171f;
+color: #6f8597;
+padding: 2em;
+text-align: center;
+letter-spacing: .3em;}
+
+
+
